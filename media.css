@@ -1,0 +1,52 @@
+@media screen and (min-width: 1020px) {
+  .card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 37.5rem;
+    height: 28rem;
+    margin: 68px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    /* border: solid 1px black; */
+    background-color: var(--White);
+  }
+
+  .card__img {
+    width: 18.75rem;
+    height: 28.1rem;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .margin-tp-ds {
+    margin-top: 1.6rem;
+  }
+
+  .card__container {
+    width: 18rem;
+    margin: 0 auto;
+    /* border: solid 1px black; */
+  }
+  .card__text {
+    /* border: solid 1px black; */
+    margin: 2rem;
+  }
+
+  .title {
+    font-size: 0.75rem;
+  }
+
+  .title__description {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-family: var(--Font-Montserrat-first);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--Dark-Grayish-blue);
+    line-height: 1.2rem;
+  }
+}

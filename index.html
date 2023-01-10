@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- FUENTES -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Hojas de estilo CSS -->
+    <style>
+      .attribution { font-size: 11px; text-align: center; margin-bottom: 1rem; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <!-- Font size (paragraph): 14px -->
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <section class="container">
+      <section class="card">
+        <article class="card__img">
+          <!-- <img src="images/image-product-mobile.jpg" alt="Image product" /> -->
+        </article>
+        <article class="card__container">
+          <div class="card__text">
+            <p class="title">PERFUME</p>
+            <h1 class="title__description margin-tp margin-tp-ds">Gabrielle Essence Eau De Parfum</h1>
+            <p class="description margin-tp margin-tp-ds">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <div class="price margin-tp margin-tp-ds">
+              <p class="price__now">$149.99</p>
+              <p class="price__before">$169.99</p>
+            </div>
+            <button type="submit" class="cart__btn margin-tp margin-tp-ds">
+              <img src="images/icon-cart.svg" alt="Icon cart" />
+              <p class="cart__add">Add to Cart</p>
+            </button>
+          </div>
+        </article>
+      </section>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Pablo Zallio</a>.
+    </div>
+  </body>
+</html>
